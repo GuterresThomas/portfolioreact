@@ -23,10 +23,7 @@ const NavMenu = () => {
     <NavigationMenu>
         <NavigationMenuList>
             <NavigationMenuItem>
-            <NavigationMenuTrigger><span className="text-3xl font-sans-Roboto font-semibold text-zinc-100 hover:font-bold ml-4">Projetos</span></NavigationMenuTrigger>
-            <NavigationMenuContent>
-                <NavigationMenuLink><Link href="#" className="p-2 text-2xl font-semibold text-zinc-100 hover:font-bold cursor-pointer">Clique</Link></NavigationMenuLink>
-            </NavigationMenuContent>
+                <Link href="/projetos"><span className="text-3xl font-sans-Roboto font-semibold text-zinc-100 hover:font-bold ml-4">Projetos</span></Link>
             </NavigationMenuItem>
         </NavigationMenuList>
     </NavigationMenu>
