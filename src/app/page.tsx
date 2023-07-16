@@ -1,5 +1,6 @@
 import NavMenu from '@/components/navMenu'
 import React from 'react'
+import { FaFlag } from 'react-icons/fa'
 import { GiSpaceSuit } from 'react-icons/gi'
 
 
@@ -10,11 +11,11 @@ export default function Home() {
       <div className='flex justify-center mt-5'>
         <h1 className='text-8xl font-sans-Roboto font-extrabold text-zinc-100'>Bem vindo(a) ao meu Portfolio</h1>
       </div>
-      <div className='flex justify-center text-center m-5 mt-10 mb-10'>
-        <h1 className='text-6xl font-sans-Roboto font-extrabold text-zinc-100'>Fico feliz em te ver aqui, clique em algum dos links acima para conhecer mais sobre mim e sobre meu trabalho.</h1>
+      <div className='flex justify-center text-center m-5 mt-10 mb-2'>
+        <h1 className='text-6xl font-sans-Roboto font-extrabold text-zinc-100'>Explore meu portfólio para descobrir os projetos nos quais trabalhei, desde sites corporativos elegantes a aplicativos web dinâmicos. Minha abordagem é baseada em um código limpo e otimizado, focado em fornecer soluções eficientes e de alta qualidade.</h1>
       </div>
-      <div className='justify-center flex animate-bounce hover:animate-none'>
-        <GiSpaceSuit size={150} color='#fff'/>
+      <div className='bottom-0'>
+            <img src='/wave-haikei (3).svg' />
       </div>
     </div>
   )
