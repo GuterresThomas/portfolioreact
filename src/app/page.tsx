@@ -9,12 +9,12 @@ export default function Home() {
     <div className='bg-zinc-900 h-full md:h-screen'>
       <NavMenu />
       <div className='flex justify-center mt-5'>
-        <h1 className='text-8xl font-sans-Roboto font-extrabold text-zinc-100'>Bem vindo(a) ao meu Portfolio</h1>
+        <h1 className='sm:text-8xl font-sans-Roboto font-extrabold text-zinc-100 text-2xl'>Bem vindo(a) ao meu Portfolio</h1>
       </div>
       <div className='flex justify-center text-center m-5 mt-10 mb-2'>
-        <h1 className='text-6xl font-sans-Roboto font-extrabold text-zinc-100'>Explore meu portfólio para descobrir os projetos nos quais trabalhei, desde sites corporativos elegantes a aplicativos web dinâmicos. Minha abordagem é baseada em um código limpo e otimizado, focado em fornecer soluções eficientes e de alta qualidade.</h1>
+        <h1 className='sm:text-6xl font-sans-Roboto font-extrabold text-zinc-100 text-xl'>Explore meu portfólio para descobrir os projetos nos quais trabalhei, desde sites corporativos elegantes a aplicativos web dinâmicos. Minha abordagem é baseada em um código limpo e otimizado, focado em fornecer soluções eficientes e de alta qualidade.</h1>
       </div>
-      <div className='bottom-0'>
+      <div className='bottom-0 sm:relative fixed'>
             <img src='/wave-haikei (3).svg' />
       </div>
     </div>
