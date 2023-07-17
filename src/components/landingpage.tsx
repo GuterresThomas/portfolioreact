@@ -29,7 +29,7 @@ const LandingPage = () => {
                         </CardContent>
                     </ScrollArea>
                     <CardFooter>
-                        <Link href="#"><Button className="border-2 p-8 rounded-full bg-zinc-600 border-zinc-700 text-zinc-100 text-2xl">Link</Button></Link>
+                        <Link href="https://tainagrendene.com.br/AutoMakeByTaina/"><Button className="border-2 p-8 rounded-full bg-zinc-600 border-zinc-700 text-zinc-100 text-2xl">Link</Button></Link>
                     </CardFooter>
                 </Card>
             </div>
