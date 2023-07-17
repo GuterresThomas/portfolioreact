@@ -12,10 +12,9 @@ const Contato = () => {
             <div className="flex justify-center">
                 <h1 className="text-zinc-100 text-4xl font-sans-Roboto font-semibold mt-5">Se você gostou do que viu e quer entrar em contato saiba como aqui embaixo:</h1>
             </div>
-            <div className="flex justify-center space-x-8 mt-8">
-                <Link href="#"><FaWhatsapp size={100} color="#fff"/></Link>
+            <div className="sm:flex sm:justify-center sm:space-x-8 mt-8">
+                <Link href="#"><FaWhatsapp size={100} color="#fff" /></Link>
                 <Link href="#"><FaGithub size={100} color="#fff" /></Link>
-                <Link href="#"><FaMailBulk size={100} color="#fff" /></Link>
                 <Link href="#"><FaInstagram size={100} color="#fff" /></Link>
                 <Link href="#"><FaLinkedin size={100} color="#fff" /></Link>
             </div>

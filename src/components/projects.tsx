@@ -1,17 +1,18 @@
 import React from "react";
 import '../app/globals.css'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import Atacado from "./atacado";
+import LandingPage from "./landingpage";
+import TwitterHome from "./twitterhomeclone";
 
 
 
 const Projects = () => {
     return (
-        <Atacado />
+        <div className="md:flex space-x-3 m-2 lg:flex mobile:flex-col mobile:max-w-100vw">
+            <Atacado />
+            <LandingPage />
+            <TwitterHome />
+        </div>
     )
 }
 
