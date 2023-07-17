@@ -19,11 +19,13 @@ const Contato = () => {
                 <Link href="#"><FaInstagram size={100} color="#fff" /></Link>
                 <Link href="#"><FaLinkedin size={100} color="#fff" /></Link>
             </div>
-            <div className='bottom-0'>
+            <div className='bottom-0 fixed'>
                 <img src='/wave-haikei (3).svg' />
              </div>
         </div>
     )
 }
+
+
 
 export default Contato
