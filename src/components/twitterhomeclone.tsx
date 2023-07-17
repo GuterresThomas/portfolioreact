@@ -29,7 +29,7 @@ const TwitterHome = () => {
                         </CardContent>
                     </ScrollArea>
                     <CardFooter>
-                        <Link href="twitterclone-omega.vercel.app"><Button className="border-2 p-8 rounded-full bg-zinc-600 border-zinc-700 text-zinc-100 text-2xl">Link</Button></Link>
+                        <Link href="twitterclone-epaoszleo-guterresthomas.vercel.app"><Button className="border-2 p-8 rounded-full bg-zinc-600 border-zinc-700 text-zinc-100 text-2xl">Link</Button></Link>
                     </CardFooter>
                 </Card>
             </div>
