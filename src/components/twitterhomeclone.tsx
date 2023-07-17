@@ -11,7 +11,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 const TwitterHome = () => {
     return (
-        <div className="flex justify-center border-2 border-zinc-800 w-[600px]">
+        <div className="flex justify-center border-2 border-zinc-800 md:w-[600px] w-[420px]">
                 <div>
                     <Avatar className="mt-6 hover:scale-150">
                         <AvatarFallback>TH</AvatarFallback>
