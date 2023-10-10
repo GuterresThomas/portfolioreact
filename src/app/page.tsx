@@ -4,7 +4,7 @@ import { GiSpaceSuit } from 'react-icons/gi'
 import sobre from '@/pages/sobre'
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { AvatarImage } from "@radix-ui/react-avatar";
-import Link from 'next/Link'
+import Link from 'next/link'
 
 
 export default function Home() {
