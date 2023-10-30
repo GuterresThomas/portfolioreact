@@ -23,6 +23,7 @@ export default function Home() {
         <h1 className='sm:text-xl font-sans-Roboto font-bold text-zinc-100 text-2xl'>Alguns Projetos</h1>
       </div>
       <div>
+        <li className="text-white hover:text-blue-300 hover:underline_cursor:pointer"><Link href="https://fit-app-front.vercel.app//">Fit app - aplicação para treinadores fisicos</Link></li>
         <li className="text-white hover:text-blue-300 hover:underline_cursor:pointer"><Link href="https://atacadaodosoculos.com/">Atacadão dos Óculos</Link></li>
         <li className="text-white hover:text-blue-300 hover:underline_cursor:pointer"><Link href="https://carlogpt.vercel.app/">ChatBot</Link></li>
         <li className="text-white hover:text-blue-300 hover:underline_cursor:pointer"> <Link href="https://twitterclone-epaoszleo-guterresthomas.vercel.app"> Twitter Register page clone</Link></li>
