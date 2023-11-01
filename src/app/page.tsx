@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <div>
         <li className="text-white hover:text-blue-300 hover:underline_cursor:pointer"><Link href="https://fit-app-front.vercel.app//">Fit app - aplicação para treinadores fisicos</Link></li>
-        <li className="text-white hover:text-blue-300 hover:underline_cursor:pointer"><Link href="https://atacadaodosoculos.com/">Atacadão dos Óculos</Link></li>
+        <li className="text-white hover:text-blue-300 hover:underline_cursor:pointer"><Link href="https://www.atacadaodosoculos.com/">Atacadão dos Óculos</Link></li>
         <li className="text-white hover:text-blue-300 hover:underline_cursor:pointer"><Link href="https://carlogpt.vercel.app/">ChatBot</Link></li>
         <li className="text-white hover:text-blue-300 hover:underline_cursor:pointer"> <Link href="https://twitterclone-epaoszleo-guterresthomas.vercel.app"> Twitter Register page clone</Link></li>
         <li className="text-white hover:text-blue-300 hover:underline_cursor:pointer"> <Link href="https://json-tree-viewer.vercel.app/"> Json Tree Viewer</Link></li>
